@@ -18,7 +18,7 @@
         "php": ">=5.5.0",
         "fzaninotto/faker": "~1.0",
         "laravel/framework": "~5.4",
-        "mpociot/documentarian": "^0.2.0",
+        "mpociot/documentarian": "patch-1-dev",
         "mpociot/reflection-docblock": "^1.0",
         "ramsey/uuid": "^3.0"
     },
@@ -28,6 +28,12 @@
         "dingo/api": "1.0.*@dev",
         "mockery/mockery": "^0.9.5"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/terranc/documentarian"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Mpociot\\ApiDoc": "src/"
